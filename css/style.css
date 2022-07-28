@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+section:nth-child(odd) h1 {
+  font-size: 90px;
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; cobre toda a section */
+  background-size: cover;
+
+  /* background-attachment: fixed; cria o efeito parallax */
+  background-attachment: fixed;
+}
+
+section:nth-child(1) {
+  background-image: url(../img/img1.jpg);
+  height: 600px;
+}
+
+section:nth-child(3) {
+  background-image: url(../img/img2.jpg);
+  height: 600px;
+}
+
+section:nth-child(5) {
+  background-image: url(../img/img3.jpg);
+  height: 600px;
+}
+
+section:nth-child(7) {
+  background-image: url(../img/img4.jpg);
+  height: 600px;
+}
